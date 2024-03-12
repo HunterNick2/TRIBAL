@@ -1,6 +1,6 @@
 {
-  "name": "CROWN-MD",
-  "description": "𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 first born",
+  "name": "TRIBAL",
+  "description": "~༒ᶦᵃᵐ᭄BRAYO™༒*",
   "keywords": [
     "bot",
     "whatsapp",
@@ -14,13 +14,13 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/kimsirm/CROWN-MD#readme",
-  "repository": "https://github.com/kimsirm/CROWN-MD.git",
-  "logo": "https://i.imgur.com/iSDfKz1.jpeg",
+  "website": "https://github.com/T-code-bit/TRIBAL#readme",
+  "repository": "https://github.com/T-code-bit/TRIBAL.git",
+  "logo": "https://i.ibb.co/WzzPmMF/fhdmotors885.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of crown MD Ex: . , / , # , & etc. Put any symbol",
+      "description": "Prefix of TRIBAL Ex: . , / , # , & etc. Put any symbol",
       "required": true
 
     },
@@ -88,7 +88,7 @@
 },
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
-      "required": false
+      "required": true
 },
  "APP_NAME": {
       "description": "Input your app name that you put above.",
