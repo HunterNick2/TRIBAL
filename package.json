@@ -1,5 +1,5 @@
 { 
-   "name": "DREADED-AI", 
+   "name": "𝑇𝑅𝛪𝐵𝛥𝐿", 
    "version": "2.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
@@ -18,7 +18,7 @@
      "bot-md", 
      "whatsapp-multi-device" 
    ], 
-   "base": "https://github.com/DikaArdnt/Hisoka-Morou", 
+   "base": "https://github.com/T-code-bit/TRIBAL", 
    "author": "Fortunatus/yusril", 
    "license": "MIT", 
    "dependencies": { 
