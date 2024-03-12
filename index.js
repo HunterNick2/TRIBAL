@@ -1,9 +1,9 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝐂𝐑𝐎𝐖𝐍-𝐀𝐈';
+let botname = process.env.BOTNAME || '𝑇𝑅𝛪𝐵𝛥𝐿-𝐀𝐈';
 
-const owner = process.env.DEV || '923195832822'; // This will send a notification once the bot reconnects
+const owner = process.env.DEV || '254782662427'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
@@ -151,7 +151,7 @@ async function startHisoka() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("CROWN-AI", {
+      figlet.textSync("𝑇𝑅𝛪𝐵𝛥𝐿-AI", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -734,8 +734,8 @@ function _0x4dc1() {
       console.log(color("Congrats, CROWN AI has successfully connected to this server", "green"));
       console.log(color("Follow me on Twitter as @NSirm5", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `〘𝐂𝐑𝐎𝐖𝐍 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .〙\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟔.𝟎.𝟖\n\nincase of any issue contact
- https://wa.me/923195832822` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `〘𝑇𝑅𝛪𝐵𝛥𝐿 has started successfully. . .〙\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟔.𝟎.𝟖\n\nincase of any issue just contact .~༒ᶦᵃᵐ᭄BRAYO™༒* 
+ https://wa.me/254782662427 𝑆𝑚𝑖𝑙𝑒 𝑦𝑜𝑢 𝑑𝑜𝑛𝑡 𝑜𝑤𝑛 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚` });
     }
     // console.log('Connected...', update)
   });
