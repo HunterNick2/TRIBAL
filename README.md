@@ -46,20 +46,23 @@ Linking/Pairing:
 
 
 ## ` Pair On reptil`
-<h2 align="left">  <a href="https://replit.com/@khoolkheed/Tribal-Pairing-v6"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<h2 align="center">  <a href="https://replit.com/@khoolkheed/Tribal-Pairing-v6"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
 
 Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusmokaya/DREADED-PAIRING)
 
-<h1 align="left">𝐃𝚵𝚸𝐋𝚯𝐘 𝚻𝚯 𝚮𝚵𝚪𝚯𝐊𝐔</h1> 
+<h1 align="center">𝐃𝚵𝚸𝐋𝚯𝐘 𝚻𝚯 𝚮𝚵𝚪𝚯𝐊𝐔</h1> 
+
+
 
 #### 1. If You don't have an account in Heroku. Create an account.
+
 <br>
-<p align="left"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 #### 2. Deploy Now.
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/https://github.com/T-code-bit/TRIBAL"> <img src="https://img.shields.io/badge/Heroku%20Deploy-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/https://github.com/T-code-bit/TRIBAL"> <img src="https://img.shields.io/badge/Heroku%20Deploy-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
     
 
@@ -67,14 +70,14 @@ Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusm
     
 <h2 align="center">   
 
-- Fork this repo by tapping  [here](https://github.com/T-code-bit/TRIBAL/fork)
+ Fork this repo by tapping  [here](https://github.com/T-code-bit/TRIBAL/fork)
 
 
-- Upload the creds.json that you received to the dreaded1 folder.
+ Upload the creds.json that you received to the dreaded1 folder.
 
-- Connect your fork to any suitable cloud host and deploy.
+ Connect your fork to any suitable cloud host and deploy.
 
-- Add the environmental variables in .env into your hosting site for bot to work.
+ Add the environmental variables in .env into your hosting site for bot to work.
 </h2>
  
      
