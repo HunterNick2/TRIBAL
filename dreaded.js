@@ -81,7 +81,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
     const author = process.env.STICKER_AUTHOR ||'~༒ᶦᵃᵐ᭄BRAYO™༒*';
-    const packname = process.env.STICKER_PACKNAME || 'TRIBAL';
+    const packname = process.env.STICKER_PACKNAME || '𝐓𝐑𝐈𝐁𝐀𝐋';
 const dev = process.env.DEV || '254782662427'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
@@ -101,7 +101,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
 const admin = process.env.ADMIN_MSG || '𝐅𝐚𝐢𝐥𝐮𝐫𝐞!, 𝑆𝑚𝑖𝑙𝑒 𝑦𝑜𝑢 𝑑𝑜𝑛𝑡 𝑜𝑤𝑛 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚';
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || 'Sorry 𝐚𝐦 𝐚𝐧 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧'
-    const NotOwner = process.env.NOT_OWNER_MSG || 'Goddamn your not 𝑇𝑅𝛪𝐵𝛥𝐿';
+    const NotOwner = process.env.NOT_OWNER_MSG || 'Goddamn your not 𝐓𝐑𝐈𝐁𝐀𝐋';
 const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
@@ -168,7 +168,7 @@ function _0x11cc() {
         'split',
         '84AXXWgJ',
         '4435424UJQIXb',
-        'y\x20CROWN\x20',
+        'y\x20𝐓𝐑𝐈𝐁𝐀𝐋\x20',
         'TRUE',
         'tibot:\x0a\x0a@',
         '\x20as\x20a\x20bot.',
@@ -191,7 +191,7 @@ function _0x11cc() {
         '184473FwtnYZ',
         '18szWhmE',
         'startsWith',
-        '𝐂𝐑𝐎𝐖𝐍-𝐀𝐈\x20an',
+        '𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈\x20an',
         '376590puyzhN',
         'key'
     ];
@@ -322,7 +322,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
   
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ TRIBAL-AI ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ 𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -339,7 +339,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
+let cap = `∆════>〘 *_TRIBAL 𝐁𝐎𝐓_* 〙<═⊷∆
 ┃»╭──────────────
 ┃»│ *_𝐎𝐰𝐧𝐞𝐫 : ~༒ᶦᵃᵐ᭄BRAYO™༒*_*
 ┃»│ *_𝐔𝐬𝐞𝐫 : ${m.pushName}_*
@@ -356,7 +356,7 @@ let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
 ┃»│ 2024© - 𝟐𝟎𝟐𝟒™
 ┃╰─────
 ╰─────────────────❍
-╭══〘 *_𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔_* 〙══Π∆
+╭══>〘 *_𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔_* 〙<══Π∆
 ▯╭────────────···▸
 ┴»│
 ┃»│ *_𝐕𝐢𝐝𝐞𝐨_*
@@ -370,7 +370,7 @@ let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
 ┬»│
 │╰────────────────❍
 ╰════════════════⊷❍
-╭═════〘 *_𝐄𝐃𝐈𝐓 𝐌𝐄𝐍𝐔_* 〙════Π∆
+╭═════>〘 *_𝐄𝐃𝐈𝐓 𝐌𝐄𝐍𝐔_* 〙<════Π∆
 ▯╭─────────────···▸
 ┴®│
 ┃®│ *_𝐒𝐭𝐢𝐜𝐤𝐞𝐫_*
@@ -381,7 +381,7 @@ let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
 ┬®│
 │╰────────────────❍
 ╰════════════════⊷❍
-╭═══════〘 *_𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈 𝐌𝐄𝐍𝐔_* 〙════Π∆
+╭═══════>〘 *_𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈 𝐌𝐄𝐍𝐔_* 〙<════Π∆
 ▯╭─────────────···▸
 ┴√│
 ┃√│ *_𝐀𝐢-𝐢𝐦𝐠_*
@@ -390,7 +390,7 @@ let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
 ┃√│ *_𝐆𝐩𝐭_*                                                                                                                                                                                                                                                         
 ┬√│
 │╰────────────────❍
-╭════〘 *_𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔_* 〙═══Π∆
+╭════>〘 *_𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔_* 〙<═══Π∆
 ▯╭─────────────···▸
 ┃¥│ *_𝐏𝐫𝐨𝐦𝐨𝐭𝐞_*
 ┃¥│ *_𝐃𝐞𝐦𝐨𝐭𝐞_*
@@ -415,7 +415,7 @@ let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
 ┃¥| *_𝐊𝐢𝐜𝐤_*
 ╰─────────────❍
 ╰══════════════⊷❍
-╭═══〘 *_𝐎𝐓𝐇𝐄𝐑𝐒_* 〙══Π∆
+╭═══>〘 *_𝐎𝐓𝐇𝐄𝐑𝐒_* 〙<══Π∆
 ▯╭─────────────···▸
 ┃✯│ *_𝐎𝐰𝐧𝐞𝐫_*
 ┃✯│ *_𝐓𝐫𝐢𝐛𝐚𝐥_*
@@ -435,7 +435,7 @@ let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
 ┃✯│ *_𝐈𝐧𝐛𝐨𝐱_*
 ╰───────────────❍
 ╰═══════════════⊷❍
-╭═══〘 *_𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔_*  〙═══Π∆
+╭═══>〘 *_𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔_*  〙<═══Π∆
 ▯╭─────────────···▸
 ┃>│ *_𝐑𝐞𝐬𝐭𝐚𝐫𝐭_*
 ┃>│ *_𝐀𝐝𝐦𝐢𝐧_*
@@ -449,7 +449,7 @@ let cap = `∆════〘 *_TRIBAL 𝐁𝐎𝐓_* 〙═⊷∆
 ┃>│ *_𝐔𝐧𝐛𝐥𝐨𝐜𝐤_*
 ✯╰───────────────❍
 ╰═══════════════⊷❍
-╭═══〘 *_𝐂𝐎𝐍𝐅𝐈𝐆 𝐌𝐄𝐍𝐔_*  〙═══Π∆
+╭═══>〘 *_𝐂𝐎𝐍𝐅𝐈𝐆 𝐌𝐄𝐍𝐔_*  〙<═══Π∆
 ▯ ™─────────────···▸
 ┴ │
 ┃>│ *_𝐆𝐩𝐭 𝐢𝐧𝐛𝐨𝐱_*
@@ -588,13 +588,13 @@ function _0x2de4() {
         '64311OINjak',
         'catch',
         'e\x20text.\x20Th',
-        '\x20of\x20its developer 𝑇𝑅𝛪𝐵𝛥𝐿',
+        '\x20of\x20its developer 𝐓𝐫𝐢𝐛𝐚𝐥',
         'is\x20AI\x20work',
         '1832596QZCVhJ',
         '\x20and\x20Googl',
         'AgaVJ',
         '6jOniet',
-        '𝑇𝑅𝛪𝐵𝛥𝐿-𝐀𝐈',
+        '𝐓𝐑𝐈𝐁𝐀𝐋 𝐁𝐎𝐓',
         '20KZWKYf',
         '\x20needs\x20som',
         'gPDEf',
@@ -643,7 +643,7 @@ const rel = await quote(xf, pushname, pppuser)
                 
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
-                    author: `𝑇𝑅𝛪𝐵𝛥𝐿`
+                    author: `𝐓𝐑𝐈𝐁𝐀𝐋 𝐁𝐎𝐓`
                 })
 
 } catch (errr) { 
@@ -1073,7 +1073,7 @@ break;
           break;
 
 case 'restart':  
-  if (!Owner) throw `Owner Only` 
+  if (!Owner) throw `𝐇𝐞𝐲. 𝐎𝐰𝐧𝐞𝐫 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐎𝐧𝐥𝐲` 
   reply(`Restarting. . .`)  
   await sleep(3000)  
   process.exit()  
@@ -1106,7 +1106,7 @@ await m.reply('Successfully removed!');
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://i.ibb.co/WzzPmMF/fhdmotors885.jpg` }, caption: 
-` Heyy *${pushname}*,You can deploy TRIBAL-BOT using the GitHub link below\n\nFork and give me a star✨.\n\n https://github.com/T-code-bit/TRIBAL\n\nLink with your whatsapp using the pairing link below\nhttps://replit.com/@njaisirm1/Crown-Pairing-v6\n\nEnjoy and have fun with TRIBAL..\n\n𝑆𝑚𝑖𝑙𝑒 𝑦𝑜𝑢 𝑑𝑜𝑛𝑡 𝑜𝑤𝑛 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 Made by TRIBAL TECH HUB .~༒ᶦᵃᵐ᭄BRAYO™༒*` });
+` 𝐇𝐞𝐲 *${pushname}*,You can deploy 𝐓𝐑𝐈𝐁𝐀𝐋 𝐁𝐎𝐓 using the GitHub link below\n\nFork and give me a star ✨. Don't be mean 🥺.\n\n https://github.com/T-code-bit/TRIBAL\n\nLink with your whatsapp using the pairing link below 💫\n\nhttps://replit.com/@khoolkheed/Tribal-Pairing-v6\n\nEnjoy and have fun with 𝐓𝐑𝐈𝐁𝐀𝐋 𝐁𝐎𝐓...\n\n𝑆𝑚𝑖𝑙𝑒 𝑦𝑜𝑢 𝑑𝑜𝑛𝑡 𝑜𝑤𝑛 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚\n\nMade by 𝐓𝐑𝐈𝐁𝐀𝐋 𝐓𝐄𝐂𝐇 𝐇𝐔𝐁 ~༒ᶦᵃᵐ᭄BRAYO™༒*` });
 
    break;
                                                   
@@ -1323,7 +1323,7 @@ function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','st
  break;
 
 case "list":
-let vaa = `𝟏𝑇𝑅𝛪𝐵𝛥𝐿➣ Get ~༒ᶦᵃᵐ᭄BRAYO™༒*  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐁𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
+let vaa ='𝟏 𝐓𝐑𝐈𝐁𝐀𝐋➣ Get ~༒ᶦᵃᵐ᭄BRAYO™༒*  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐁𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
 reply(vaa)
 break;
 
@@ -1338,7 +1338,7 @@ try {
   if (!m.quoted) return reply('Quote a sticker!')
   let fortunx = await client.getName(sender);
   
-  if (!/webp/.test(mime)) throw `Tag sticker with caption  ${prefix + command}`;
+  if (!/webp/.test(mime)) throw `Tag sticker with caption dummy ${prefix + command}`;
   if (m.quoted.isAnimated === true) {
   client.downloadAndSaveMediaMessage(quoted, "gifee");
   client.sendMessage(m.chat, {sticker:fs.readFileSync("gifee.webp")},{quoted:m});
@@ -1563,7 +1563,7 @@ case 'yta': {
             let infoYt = await ytdl.getInfo(urlYt);
             //30 MIN
             if (infoYt.videoDetails.lengthSeconds >= 1800) {
-                reply(`Video too big!`);
+                reply('𝐇𝐞𝐲 𝐕𝐢𝐝𝐞𝐨 𝐓𝐨𝐨 𝐁𝐢𝐠! 𝐌𝐲 𝐒𝐲𝐬𝐭𝐞𝐦 𝐌𝐢𝐠𝐡𝐭 𝐆𝐨 𝐂𝐫𝐚𝐳𝐲 😂`);
                 return;
             }
             let titleYt = infoYt.videoDetails.title;
@@ -1647,7 +1647,7 @@ case 'ytv':
             // Convert the file size to megabytes (optional)
             let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
             console.log("Video downloaded ! Size: " + fileSizeInMegabytes);
-            if (fileSizeInMegabytes <= 100) {
+            if (fileSizeInMegabytes <= 200) {
                 client.sendMessage(
                     from, {
                         video: fs.readFileSync(`./${randomName}`),
@@ -1681,7 +1681,7 @@ break;
             let infoYt = await ytdl.getInfo(urlYt);
             //30 MIN
             if (infoYt.videoDetails.lengthSeconds >= 1800) {
-                reply(`Video file too big!`);
+                reply(`𝐇𝐞𝐲 𝐕𝐢𝐝𝐞𝐨 𝐓𝐨𝐨 𝐁𝐢𝐠. 𝐌𝐲 𝐒𝐲𝐬𝐭𝐞𝐦 𝐌𝐢𝐠𝐡𝐭 𝐆𝐨 𝐂𝐫𝐚𝐳𝐲 😂!`);
                 return;
             }
             let titleYt = infoYt.videoDetails.title;
@@ -1704,17 +1704,17 @@ break;
             // Convert the file size to megabytes (optional)
             let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
             console.log("Video downloaded ! Size: " + fileSizeInMegabytes);
-            if (fileSizeInMegabytes <= 100) {
+            if (fileSizeInMegabytes <= 200) {
                 client.sendMessage(
                     from, {
                         video: fs.readFileSync(`./${randomName}`),
-                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐂𝐫𝐨𝐰𝐧-𝐀𝐈`,
+                        caption: `𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐓𝐑𝐈𝐁𝐀𝐋-𝐀𝐈™`,
                     }, {
                         quoted: m
                     }
                 );
             } else {
-                reply(`File size big.`);
+                reply(`𝐇𝐞𝐲 𝐅𝐢𝐥𝐞 𝐓𝐨𝐨 𝐁𝐢𝐠. 𝐌𝐲 𝐒𝐲𝐬𝐭𝐞𝐦 𝐌𝐢𝐠𝐡𝐭 𝐆𝐨 𝐂𝐫𝐚𝐳𝐲 😂`);
             }
             
             fs.unlinkSync(`./${randomName}`);
@@ -1724,18 +1724,18 @@ break;
 break;
 
 case "ping": case "speed": { 
-         m.reply (`*𝐋𝐚𝐭𝐞𝐧𝐜𝐲: ${dreadedspeed.toFixed(4)} _𝐦𝐬_*`); 
+         m.reply (`*𝐅𝐚𝐬𝐭𝐞𝐫 𝐓𝐡𝐚𝐧 𝐓𝐡𝐞 𝐖𝐢𝐧𝐝 𝐒𝐥𝐨𝐰𝐞𝐫 𝐓𝐡𝐚𝐧 𝐓𝐡𝐞 𝐅𝐥𝐚𝐬𝐡. 𝐓𝐡𝐞 𝐋𝐚𝐭𝐞𝐧𝐜𝐲 𝐈𝐬: ${dreadedspeed.toFixed(4)} _𝐦𝐬_*`); 
          } 
  break; 
   
  case "runtime": { 
-                 m.reply (`Bot active for *${runtime(process._uptime())}_*`) 
+                 m.reply (`𝐇𝐞𝐲 𝐁𝐨𝐭 𝐀𝐜𝐭𝐢𝐯𝐞 𝐅𝐨𝐫 *${runtime(process._uptime())}_* 𝐉𝐮𝐬𝐭 𝐀𝐬 𝐀𝐥𝐰𝐚𝐲𝐬`) 
  } 
  break;
 
 case "alive": { 
   
- client.sendMessage(m.chat, { video: { url: 'https://i.ibb.co/WzzPmMF/fhdmotors885.jpg' }, caption: `Heyy ${m.pushName}, 𝑇𝑅𝛪𝐵𝛥𝐿 is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.ibb.co/WzzPmMF/fhdmotors885.jpg' }, caption: `𝐇𝐞𝐲 ${m.pushName}, 𝐓𝐑𝐈𝐁𝐀𝐋 𝐁𝐎𝐓 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 𝐬𝐢𝐧𝐜𝐞  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1826,7 +1826,7 @@ client.sendMessage(from, buttonMessage, { quoted: m })
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `*_𝐂𝐫𝐨𝐰𝐧 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 🦄_*`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `*_𝐓𝐑𝐈𝐁𝐀𝐋 𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋_*`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -1970,7 +1970,7 @@ case "movie":
                  if (!Owner) throw NotOwner
                  if (!text) return reply("C'mon provide a valid group link") 
                  let result = args[0].split('https://chat.whatsapp.com/')[1] 
-                 await client.groupAcceptInvite(result).then((res) =>  reply(jsonformat(res))).catch((err) =>reply(`Link has problem.`)) 
+                 await client.groupAcceptInvite(result).then((res) =>  reply(jsonformat(res))).catch((err) =>reply(`Link has problem.You might wanna check and try again`)) 
   
              } 
   
