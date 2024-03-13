@@ -28,9 +28,9 @@
 
 ## DEVELOPERS
 
-~༒BRAYO™༒* -  254782662427
+  BRAYO -   [WHATSAPP](https://wa.me/+254782662427)
 
-~༒HUNTER™༒* - 254781199696
+  HUNTER -  [WHATSAPP](https://wa.me/+254114660061)
 
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/adiwajshing/Baileys)***
