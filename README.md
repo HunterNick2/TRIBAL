@@ -62,7 +62,7 @@ Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusm
 <p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 #### 2. Deploy Now.
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/https://github.com/T-code-bit/TRIBAL"> <img src="https://img.shields.io/badge/Heroku%20Deploy-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new-app?template=https://github.com/T-code-bit/TRIBAL"> <img src="https://img.shields.io/badge/Heroku%20Deploy-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
     
 
