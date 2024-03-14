@@ -1,11 +1,11 @@
-const sessionName = "dreaded1";
+const sessionName = "tribal1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
 let botname = process.env.BOTNAME || '𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈';
 
 const owner = process.env.DEV || '254782662427'; // This will send a notification once the bot reconnects
 const {
-  default: dreadedConnect,
+  default: tribalConnect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `𝐋𝐨𝐧𝐠 𝐋𝐢𝐯𝐞 𝐓𝐫𝐢𝐛𝐚𝐥 𝐀𝐈 ${botname}\n\n${date.toLocaleString('en-US', { timeZone: '𝐀𝐟𝐫𝐢𝐜𝐚/𝐍𝐚𝐢𝐫𝐨𝐛𝐢' })} 𝐈𝐭'𝐬 𝐀 ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `Long Live Tribal ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
