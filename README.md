@@ -50,7 +50,7 @@ Linking/Pairing:
 </a>
 </h2>
 
-Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusmokaya/DREADED-PAIRING)
+Alternatively, pair locally using the repo [Here](https://replit.com/@khoolkheed/Tribal-Pairing-v6)
 
 <h1 align="center">𝐃𝚵𝚸𝐋𝚯𝐘 𝚻𝚯 𝚮𝚵𝚪𝚯𝐊𝐔</h1> 
 
