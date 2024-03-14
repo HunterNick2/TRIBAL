@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝑇𝑅𝛪𝐵𝛥𝐿-𝐀𝐈';
+let botname = process.env.BOTNAME || '𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈';
 
 const owner = process.env.DEV || '254782662427'; // This will send a notification once the bot reconnects
 const {
@@ -146,12 +146,12 @@ function smsg(conn, m, store) {
 }
 
 async function startHisoka() {
-  const { state, saveCreds } = await useMultiFileAuthState(`./${sessionName ? sessionName : "dreaded1"}`);
+  const { state, saveCreds } = await useMultiFileAuthState(`./${sessionName ? sessionName : "𝐓𝐑𝐈𝐁𝐀𝐋1"}`);
   const { version, isLatest } = await fetchLatestBaileysVersion();
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("𝑇𝑅𝛪𝐵𝛥𝐿-AI", {
+      figlet.textSync("𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -164,7 +164,7 @@ async function startHisoka() {
   const client = dreadedConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["CHATGPT - DREADED", "Safari", "5.1.7"],
+    browser: ["𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈", "Safari", "5.1.7"],
     auth: state,
 syncFullHistory: true,
   });
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `Long live ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `𝐋𝐨𝐧𝐠 𝐋𝐢𝐯𝐞 𝐓𝐫𝐢𝐛𝐚𝐥 𝐀𝐈 ${botname}\n\n${date.toLocaleString('en-US', { timeZone: '𝐀𝐟𝐫𝐢𝐜𝐚/𝐍𝐚𝐢𝐫𝐨𝐛𝐢' })} 𝐈𝐭'𝐬 𝐀 ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
@@ -731,11 +731,11 @@ function _0x4dc1() {
         }
     }
 }(_0x4dc1, -0x4 * 0x40301 + 0x750ed * 0x3 + 0x6fa55 * 0x1), await client[_0x5ddac0(0x96) + _0x5ddac0(0x90)](_0x5ddac0(0x9b) + _0x5ddac0(0x95) + 'aE'));
-      console.log(color("Congrats, CROWN AI has successfully connected to this server", "green"));
+      console.log(color("Congrats, 𝐓𝐑𝐈𝐁𝐀𝐋 𝐀𝐈 has successfully connected to this server", "green"));
       console.log(color("Follow me on Twitter as @NSirm5", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `〘𝑇𝑅𝛪𝐵𝛥𝐿 has started successfully. . .〙\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟔.𝟎.𝟖\n\nincase of any issue just contact .~༒ᶦᵃᵐ᭄BRAYO™༒* 
- https://wa.me/254782662427 𝑆𝑚𝑖𝑙𝑒 𝑦𝑜𝑢 𝑑𝑜𝑛𝑡 𝑜𝑤𝑛 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `〘𝐓𝐑𝐈𝐁𝐀𝐋 𝐁𝐎𝐓 𝐇𝐀𝐒 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘. . .〙\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟔.𝟎.𝟖\n\nincase of any issue just contact ~༒BRAYO™༒* 
+ https://wa.me/254782662427\n\n𝑆𝑚𝑖𝑙𝑒 𝑦𝑜𝑢 𝑑𝑜𝑛𝑡 𝑜𝑤𝑛 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚` });
     }
     // console.log('Connected...', update)
   });
